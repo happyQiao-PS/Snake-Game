@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/qiao/Desktop/Snake-Game/a.cpp" "CMakeFiles/SnakeGame.dir/a.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/a.cpp.o.d"
   "/home/qiao/Desktop/Snake-Game/main.cpp" "CMakeFiles/SnakeGame.dir/main.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/main.cpp.o.d"
   )
 

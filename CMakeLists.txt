@@ -3,4 +3,5 @@ project(SnakeGame)
 
 set(CXX_STANDARD 20)
 
-add_executable(SnakeGame main.cpp)
+aux_source_directory(. src)
+add_executable(SnakeGame ${src})
