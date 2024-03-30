@@ -1,0 +1,3 @@
+/home/qiao/Desktop/Snake-Game/build/CMakeFiles/SnakeGame.dir
+/home/qiao/Desktop/Snake-Game/build/CMakeFiles/edit_cache.dir
+/home/qiao/Desktop/Snake-Game/build/CMakeFiles/rebuild_cache.dir

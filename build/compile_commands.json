@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/qiao/Desktop/Snake-Game/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/SnakeGame.dir/main.cpp.o -c /home/qiao/Desktop/Snake-Game/main.cpp",
+  "file": "/home/qiao/Desktop/Snake-Game/main.cpp"
+}
+]
