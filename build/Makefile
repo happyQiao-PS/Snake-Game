@@ -129,30 +129,6 @@ SnakeGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/build
 .PHONY : SnakeGame/fast
 
-a.o: a.cpp.o
-.PHONY : a.o
-
-# target to build an object file
-a.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/a.cpp.o
-.PHONY : a.cpp.o
-
-a.i: a.cpp.i
-.PHONY : a.i
-
-# target to preprocess a source file
-a.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/a.cpp.i
-.PHONY : a.cpp.i
-
-a.s: a.cpp.s
-.PHONY : a.s
-
-# target to generate assembly for a file
-a.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/a.cpp.s
-.PHONY : a.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -177,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+terminal.o: terminal.cpp.o
+.PHONY : terminal.o
+
+# target to build an object file
+terminal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/terminal.cpp.o
+.PHONY : terminal.cpp.o
+
+terminal.i: terminal.cpp.i
+.PHONY : terminal.i
+
+# target to preprocess a source file
+terminal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/terminal.cpp.i
+.PHONY : terminal.cpp.i
+
+terminal.s: terminal.cpp.s
+.PHONY : terminal.s
+
+# target to generate assembly for a file
+terminal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/terminal.cpp.s
+.PHONY : terminal.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SnakeGame"
-	@echo "... a.o"
-	@echo "... a.i"
-	@echo "... a.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... terminal.o"
+	@echo "... terminal.i"
+	@echo "... terminal.s"
 .PHONY : help
 
 
