@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SnakeGame.dir/a.cpp.o"
-  "CMakeFiles/SnakeGame.dir/a.cpp.o.d"
   "CMakeFiles/SnakeGame.dir/main.cpp.o"
   "CMakeFiles/SnakeGame.dir/main.cpp.o.d"
+  "CMakeFiles/SnakeGame.dir/terminal.cpp.o"
+  "CMakeFiles/SnakeGame.dir/terminal.cpp.o.d"
   "SnakeGame"
   "SnakeGame.pdb"
 )

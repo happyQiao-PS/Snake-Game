@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/qiao/Desktop/Snake-Game/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/SnakeGame.dir/a.cpp.o -c /home/qiao/Desktop/Snake-Game/a.cpp",
-  "file": "/home/qiao/Desktop/Snake-Game/a.cpp"
+  "command": "/usr/bin/g++   -g -o CMakeFiles/SnakeGame.dir/main.cpp.o -c /home/qiao/Desktop/Snake-Game/main.cpp",
+  "file": "/home/qiao/Desktop/Snake-Game/main.cpp"
 },
 {
   "directory": "/home/qiao/Desktop/Snake-Game/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/SnakeGame.dir/main.cpp.o -c /home/qiao/Desktop/Snake-Game/main.cpp",
-  "file": "/home/qiao/Desktop/Snake-Game/main.cpp"
+  "command": "/usr/bin/g++   -g -o CMakeFiles/SnakeGame.dir/terminal.cpp.o -c /home/qiao/Desktop/Snake-Game/terminal.cpp",
+  "file": "/home/qiao/Desktop/Snake-Game/terminal.cpp"
 }
 ]
