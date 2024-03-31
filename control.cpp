@@ -5,6 +5,7 @@
 namespace gm
 {
     char command = 0;
+
     std::map<char, std::function<void()>> comm_func{
         {KEY_Q, command_quit},
         {KEY_W, command_rotate},
@@ -47,17 +48,21 @@ namespace gm
     }
     void command_rotate(void)
     {
+        rotate();
     }
 
     void command_left(void)
     {
+        left();
     }
 
     void command_right(void)
     {
+        right();
     }
 
     void command_down(void)
     {
+        down();
     }
 }

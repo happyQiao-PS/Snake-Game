@@ -474,6 +474,7 @@ CMakeFiles/SnakeGame.dir/draw.cpp.o
  /usr/include/c++/11/bits/uniform_int_dist.h
  /home/qiao/Desktop/Snake-Game/draw.h
  /home/qiao/Desktop/Snake-Game/terminal.h
+ /home/qiao/Desktop/Snake-Game/utils.h
 
 CMakeFiles/SnakeGame.dir/game.cpp.o
  /home/qiao/Desktop/Snake-Game/game.cpp

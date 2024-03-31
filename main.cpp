@@ -26,7 +26,7 @@ void loop(void)
         tc::move_to(10, 4);
         std::cout << "FPS:" << ut::fps();
 
-        tc::move_to(i++ % 20, 10);
+        tc::move_to(gm::row, ut::b2c(gm::col));
         tc::set_back_color(15);
 
         std::cout << "  ";

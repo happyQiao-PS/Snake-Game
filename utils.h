@@ -1,5 +1,7 @@
-#pragma once    //C++11 attribute
+#pragma once // C++11 attribute
 
-namespace ut{
+namespace ut
+{
     int fps(void);
+    int b2c(int b);
 }

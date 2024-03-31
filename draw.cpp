@@ -1,6 +1,7 @@
 #include "define.h"
 #include "draw.h"
 #include "terminal.h"
+#include "utils.h"
 
 /**
  *        	0	1	2	3	4	5	6	7	8	9	A	B	C	D	E	F
@@ -19,7 +20,7 @@ void dw::window(int top, int left, int width, int height, std::string title)
 {
     for (int r = 0; r < height; ++r)
     {
-        tc::move_to(top + r, block2col(left));
+        tc::move_to(top + r, ut::b2c(left));
         for (int c = 0; c < width; ++c)
         {
             if (r == 0) // 第一行
@@ -66,7 +67,7 @@ void dw::window(int top, int left, int width, int height, std::string title)
         }
 
         // title
-        tc::move_to(top, block2col(left) + (width * 2 - title.length() - 1) / 2);
+        tc::move_to(top, ut::b2c(left) + (width * 2 - title.length() - 1) / 2);
         std::cout << title;
     }
 }

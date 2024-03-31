@@ -471,7 +471,8 @@ CMakeFiles/SnakeGame.dir/draw.cpp.o: ../draw.cpp \
   /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
   ../draw.h \
-  ../terminal.h
+  ../terminal.h \
+  ../utils.h
 
 CMakeFiles/SnakeGame.dir/game.cpp.o: ../game.cpp \
   /usr/include/stdc-predef.h \
