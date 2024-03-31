@@ -154,4 +154,6 @@ CMakeFiles/SnakeGame.dir/main.cpp.o: \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /home/qiao/Desktop/Snake-Game/terminal.h
+ /home/qiao/Desktop/Snake-Game/utils.h \
+ /home/qiao/Desktop/Snake-Game/terminal.h \
+ /home/qiao/Desktop/Snake-Game/draw.h
