@@ -14,7 +14,7 @@ void init(void)
 void loop(void)
 {
     int i = 1;
-    while (true)
+    while (gm::running)
     {
         tc::clean_screen();
         dw::window(1, 1, 9, 6, "hold");
@@ -31,9 +31,6 @@ void loop(void)
 
         std::cout << "  ";
         tc::reset_color();
-
-        if (gm::command == 'q')
-            break;
 
         std::cout << std::flush;
         std::this_thread::sleep_for(100ms); // s ms us ns //1000 / 120fps
