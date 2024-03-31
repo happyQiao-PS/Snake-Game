@@ -1,7 +1,5 @@
 #include "utils.h"
-#include <chrono>
-
-using namespace std::chrono_literals;
+#include "define.h"
 
 int ut::fps(void)
 {
@@ -11,7 +9,7 @@ int ut::fps(void)
     static int fps = 0;
 
     frame_count++;
-    if((end - start) > 1s)
+    if ((end - start) > 1s)
     {
         fps = frame_count;
 

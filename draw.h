@@ -12,6 +12,5 @@ namespace dw
     {
         return 2 * b - 1;
     }
-
     void window(int top, int left, int width, int height, std::string title);
 } // namespace dw

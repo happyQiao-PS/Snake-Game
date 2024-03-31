@@ -1,4 +1,4 @@
-#include <iostream>
+#include "define.h"
 #include "draw.h"
 #include "terminal.h"
 
@@ -13,8 +13,6 @@
  * U+256x	╠	╡	╢	╣	╤	╥	╦	╧	╨	╩	╪	╫	╬	╭	╮	╯
  * U+257x	╰	╱	╲	╳	╴	╵	╶	╷	╸	╹	╺	╻	╼	╽	╾	╿
  */
-
-// inline int block2col(int b)
 
 //  1,10,12,22
 void dw::window(int top, int left, int width, int height, std::string title)
@@ -66,6 +64,8 @@ void dw::window(int top, int left, int width, int height, std::string title)
                 }
             }
         }
+
+        // title
         tc::move_to(top, block2col(left) + (width * 2 - title.length() - 1) / 2);
         std::cout << title;
     }

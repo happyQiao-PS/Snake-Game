@@ -1,11 +1,11 @@
 #include "terminal.h"
-#include <iostream>
+#include "define.h"
 
 #define CSI "\033["
 
 void tc::move_to(int row, int col)
 {
-    std::cout << CSI << row <<";" << col << 'H'; 
+    std::cout << CSI << row << ";" << col << 'H';
 }
 
 void tc::set_fore_color(int id)
