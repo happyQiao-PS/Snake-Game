@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/SnakeGame.dir/main.cpp.o CMakeFiles/SnakeGame.dir/terminal.cpp.o -o SnakeGame 
+/usr/bin/g++ -g CMakeFiles/SnakeGame.dir/control.cpp.o CMakeFiles/SnakeGame.dir/draw.cpp.o CMakeFiles/SnakeGame.dir/game.cpp.o CMakeFiles/SnakeGame.dir/main.cpp.o CMakeFiles/SnakeGame.dir/terminal.cpp.o CMakeFiles/SnakeGame.dir/utils.cpp.o -o SnakeGame 

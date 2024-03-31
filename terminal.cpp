@@ -1,11 +1,11 @@
 #include "terminal.h"
-#include <iostream>
+#include "define.h"
 
 #define CSI "\033["
 
 void tc::move_to(int row, int col)
 {
-    std::cout << CSI << row <<";" << col << 'H'; 
+    std::cout << CSI << row << ";" << col << 'H';
 }
 
 void tc::set_fore_color(int id)
@@ -26,4 +26,14 @@ void tc::clean_screen()
 void tc::reset_color()
 {
     std::cout << CSI << "0m";
+}
+
+void tc::hide_cursor()
+{
+    std::cout << CSI << "?25l";
+}
+
+void tc::show_cursor()
+{
+    std::cout << CSI << "?25h";
 }
