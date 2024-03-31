@@ -12,14 +12,18 @@ void init(void)
 {
     tc::clean_screen();
     tc::hide_cursor();
-    dw::window(3, 1, 19, 16, "hold");
+    dw::window(1, 1, 9, 6, "hold");
+    dw::window(1, 10, 12, 22, "Tetriz");
+    dw::window(7, 1, 9, 16, "Status");
+    dw::window(19, 22, 8, 4, "Info");
+    dw::window(1, 22, 8, 18, "Next");
 }
 void loop(void)
 {
     int i = 1;
     while (true)
     {
-        tc::move_to(18, 50);
+        tc::move_to(10, 4);
         std::cout << "FPS:" << ut::fps();
         tc::move_to(5, 10);
         tc::set_back_color(15);

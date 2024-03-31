@@ -60,7 +60,13 @@ void dw::window(int top, int left, int width, int height, std::string title)
                 {
                     std::cout << "┃";
                 }
+                else
+                {
+                    std::cout << "  ";
+                }
             }
         }
+        tc::move_to(top, block2col(left) + (width * 2 - title.length() - 1) / 2);
+        std::cout << title;
     }
 }
