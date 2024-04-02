@@ -32,7 +32,8 @@ namespace gm
         while (running) // 在线程里面监听键盘事件
         {
             command = getch();
-            comm_func[command]();
+            if (comm_func.find(command) != comm_func.end())
+                comm_func[command]();
         }
     }
 

@@ -188,5 +188,7 @@ CMakeFiles/SnakeGame.dir/main.cpp.o: \
  /home/qiao/Desktop/Snake-Game/utils.h \
  /home/qiao/Desktop/Snake-Game/terminal.h \
  /home/qiao/Desktop/Snake-Game/draw.h \
+ /home/qiao/Desktop/Snake-Game/tetromino.h \
+ /home/qiao/Desktop/Snake-Game/color.h \
  /home/qiao/Desktop/Snake-Game/control.h \
  /home/qiao/Desktop/Snake-Game/game.h

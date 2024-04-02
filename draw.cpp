@@ -15,59 +15,85 @@
  * U+257x	╰	╱	╲	╳	╴	╵	╶	╷	╸	╹	╺	╻	╼	╽	╾	╿
  */
 
-//  1,10,12,22
-void dw::window(int top, int left, int width, int height, std::string title)
+namespace dw
 {
-    for (int r = 0; r < height; ++r)
+    //  1,10,12,22
+    void window(int top, int left, int width, int height, std::string title)
     {
-        tc::move_to(top + r, ut::b2c(left));
-        for (int c = 0; c < width; ++c)
+        for (int r = 0; r < height; ++r)
         {
-            if (r == 0) // 第一行
+            tc::move_to(top + r, ut::b2c(left));
+            for (int c = 0; c < width; ++c)
             {
-                if (c == 0) // 第一列
+                if (r == 0) // 第一行
                 {
-                    std::cout << "┏";
+                    if (c == 0) // 第一列
+                    {
+                        std::cout << "┏";
+                    }
+                    else if (c == (width - 1)) // 最后一列
+                    {
+                        std::cout << "┓";
+                    }
+                    else
+                    {
+                        std::cout << "━━";
+                    }
                 }
-                else if (c == (width - 1)) // 最后一列
+                else if (r == (height - 1)) // 最后一行
                 {
-                    std::cout << "┓";
+                    if (c == 0) // 第一列
+                    {
+                        std::cout << "┗";
+                    }
+                    else if (c == (width - 1)) // 最后一列
+                    {
+                        std::cout << "┛";
+                    }
+                    else
+                    {
+                        std::cout << "━━";
+                    }
                 }
                 else
                 {
-                    std::cout << "━━";
+                    if ((c == 0) || (c == (width - 1)))
+                    {
+                        std::cout << "┃";
+                    }
+                    else
+                    {
+                        std::cout << "  ";
+                    }
                 }
             }
-            else if (r == (height - 1)) // 最后一行
+
+            // title
+            tc::move_to(top, ut::b2c(left) + (width * 2 - title.length() - 1) / 2);
+            std::cout << title;
+        }
+    }
+
+    void tetromino(gm::Tetromino &t, int top, int left)
+    {
+        tc::move_to(top, ut::b2c(left));
+        for (int i = 0; i < t.size(); ++i)
+        {
+            tc::move_to(top + i, ut::b2c(left));
+            for (int j = 0; j < t[0].size(); ++j)
             {
-                if (c == 0) // 第一列
+                if (t[i][j] > 0)
                 {
-                    std::cout << "┗";
-                }
-                else if (c == (width - 1)) // 最后一列
-                {
-                    std::cout << "┛";
+                    tc::reset_color();
+                    tc::set_back_color((int)gm::tetro_color[t[i][j]]);
+                    std::cout << "  ";
                 }
                 else
                 {
-                    std::cout << "━━";
-                }
-            }
-            else
-            {
-                if ((c == 0) || (c == (width - 1)))
-                {
-                    std::cout << "┃";
-                }
-                else
-                {
+                    tc::reset_color();
                     std::cout << "  ";
                 }
             }
         }
-
-        // title
-        tc::move_to(top, ut::b2c(left) + (width * 2 - title.length() - 1) / 2);
-        std::cout << title;
     }
 }

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SnakeGame.dir/main.cpp.o.d"
   "CMakeFiles/SnakeGame.dir/terminal.cpp.o"
   "CMakeFiles/SnakeGame.dir/terminal.cpp.o.d"
+  "CMakeFiles/SnakeGame.dir/tetromino.cpp.o"
+  "CMakeFiles/SnakeGame.dir/tetromino.cpp.o.d"
   "CMakeFiles/SnakeGame.dir/utils.cpp.o"
   "CMakeFiles/SnakeGame.dir/utils.cpp.o.d"
   "SnakeGame"

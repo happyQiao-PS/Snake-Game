@@ -27,9 +27,10 @@ void loop(void)
         std::cout << "FPS:" << ut::fps();
 
         tc::move_to(gm::row, ut::b2c(gm::col));
-        tc::set_back_color(15);
+        // tc::set_back_color(15);
+        // std::cout << "  ";w
 
-        std::cout << "  ";
+        dw::tetromino(gm::cur, gm::row, gm::col);
         tc::reset_color();
 
         std::cout << std::flush;

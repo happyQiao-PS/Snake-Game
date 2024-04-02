@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/qiao/Desktop/Snake-Game/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/SnakeGame.dir/tetromino.cpp.o -c /home/qiao/Desktop/Snake-Game/tetromino.cpp",
+  "file": "/home/qiao/Desktop/Snake-Game/tetromino.cpp"
+},
+{
+  "directory": "/home/qiao/Desktop/Snake-Game/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/SnakeGame.dir/utils.cpp.o -c /home/qiao/Desktop/Snake-Game/utils.cpp",
   "file": "/home/qiao/Desktop/Snake-Game/utils.cpp"
 }

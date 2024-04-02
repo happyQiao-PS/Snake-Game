@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qiao/Desktop/Snake-Game/game.cpp" "CMakeFiles/SnakeGame.dir/game.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/game.cpp.o.d"
   "/home/qiao/Desktop/Snake-Game/main.cpp" "CMakeFiles/SnakeGame.dir/main.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/main.cpp.o.d"
   "/home/qiao/Desktop/Snake-Game/terminal.cpp" "CMakeFiles/SnakeGame.dir/terminal.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/terminal.cpp.o.d"
+  "/home/qiao/Desktop/Snake-Game/tetromino.cpp" "CMakeFiles/SnakeGame.dir/tetromino.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/tetromino.cpp.o.d"
   "/home/qiao/Desktop/Snake-Game/utils.cpp" "CMakeFiles/SnakeGame.dir/utils.cpp.o" "gcc" "CMakeFiles/SnakeGame.dir/utils.cpp.o.d"
   )
 

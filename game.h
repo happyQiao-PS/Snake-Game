@@ -1,9 +1,12 @@
 #pragma once
 
+#include "tetromino.h"
+
 namespace gm
 {
     extern bool running;
     extern int row, col;
+    extern Tetromino cur;
     void quit(void);
     void init(void);
 
@@ -13,5 +16,4 @@ namespace gm
     void left(void);
     void right(void);
     void down(void);
-
 }

@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include "define.h"
+#include "tetromino.h"
 /**
  * ui: layout
  * dw: draw                             gm: game logic      ut: utils
@@ -9,4 +11,7 @@
 namespace dw
 {
     void window(int top, int left, int width, int height, std::string title);
-} // namespace dw
+
+    void tetromino(gm::Tetromino &t, int top, int left);
+
+}; // namespace dw

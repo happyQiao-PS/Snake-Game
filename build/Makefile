@@ -249,6 +249,30 @@ terminal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/terminal.cpp.s
 .PHONY : terminal.cpp.s
 
+tetromino.o: tetromino.cpp.o
+.PHONY : tetromino.o
+
+# target to build an object file
+tetromino.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/tetromino.cpp.o
+.PHONY : tetromino.cpp.o
+
+tetromino.i: tetromino.cpp.i
+.PHONY : tetromino.i
+
+# target to preprocess a source file
+tetromino.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/tetromino.cpp.i
+.PHONY : tetromino.cpp.i
+
+tetromino.s: tetromino.cpp.s
+.PHONY : tetromino.s
+
+# target to generate assembly for a file
+tetromino.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/tetromino.cpp.s
+.PHONY : tetromino.cpp.s
+
 utils.o: utils.cpp.o
 .PHONY : utils.o
 
@@ -297,6 +321,9 @@ help:
 	@echo "... terminal.o"
 	@echo "... terminal.i"
 	@echo "... terminal.s"
+	@echo "... tetromino.o"
+	@echo "... tetromino.i"
+	@echo "... tetromino.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"

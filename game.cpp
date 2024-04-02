@@ -1,15 +1,18 @@
 #include "game.h"
+#include "tetromino.h"
 
 namespace gm
 {
     bool running;
     int row, col;
+    Tetromino cur;
 
     void init(void)
     {
         running = true;
         row = 2;
         col = 15;
+        cur = S;
     }
     void quit(void)
     {
@@ -18,7 +21,7 @@ namespace gm
 
     void rotate(void)
     {
-        row--;
+        cur = rotate(cur);
     }
     void left(void)
     {
